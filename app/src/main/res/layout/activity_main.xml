@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_record" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_below="@id/btnRecord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_stop" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_below="@id/btnStop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_play" />
+
+    <Button
+        android:id="@+id/btnSummarize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summarize"
+        android:layout_below="@id/btnPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary will be displayed here."
+        android:layout_below="@id/btnSummarize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <Switch
+        android:id="@+id/switchDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:layout_below="@id/summaryTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+</RelativeLayout>
