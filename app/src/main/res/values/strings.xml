@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Recorder</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="summarize">Summarize</string>
+    <string name="summary">Summary will be displayed here.</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
