@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Recorder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/secondaryColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/primaryColor</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/secondaryColor</item>
+        <!-- StatusBar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primaryColor</item>
+    </style>
+
+    <style name="Theme.Recorder.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/darkPrimaryColor</item>
+        <item name="colorOnPrimary">@color/darkSecondaryColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darkSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/darkSecondaryColor</item>
+        <item name="colorOnSecondary">@color/darkPrimaryColor</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/darkPrimaryColor</item>
+        <!-- StatusBar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darkPrimaryColor</item>
+    </style>
+</resources>
