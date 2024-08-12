@@ -54,7 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 GitHub: [PaPaGuyCodes](https://github.com/PaPaGuyCodes)
 
 # Acknowledgements
-I would like to extend our heartfelt thanks to the developers and contributors of the following libraries and tools that made this project possible:
+I would like to extend my heartfelt thanks to the developers and contributors of the following libraries and tools that made this project possible:
 
 - **AndroidX**: A collection of libraries that help developers adhere to best practices, and provide backward compatibility with older versions of Android.
 
